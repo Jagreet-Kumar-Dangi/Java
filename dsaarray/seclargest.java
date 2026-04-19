@@ -49,5 +49,6 @@ public class seclargest {
         seclargest obj=new seclargest();
         int result= obj.second_Largest_Number(arr);
         System.out.println("Second largest element is: "+result);
+        sc.close();
     }
 }

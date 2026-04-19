@@ -25,6 +25,7 @@ public class checksorted {
         checksorted obj=new checksorted();
         boolean result =obj.sorted(arr);
         System.out.println("Is array is sorted: "+result);
+        sc.close();
         
 
 

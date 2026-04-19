@@ -24,6 +24,7 @@ public class arraylargestnum{
         arraylargestnum obj=new arraylargestnum();
         int result =obj.largestNumber(arr);
         System.out.println("largest number in array is: "+result);
+        sc.close();
 
     }
 }
