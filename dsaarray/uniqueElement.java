@@ -48,6 +48,7 @@ public class uniqueElement {
         for(int x=0;x<count;x++){
             System.out.print(arr[x]+ " ");
         }
+        System.out.println();
         System.out.println("Number of uique elements: "+count);
     }
 
