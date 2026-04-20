@@ -54,6 +54,7 @@ public class practice {
         obj.betterUnique(arr);
         System.out.println();
         obj.optimumUnique(arr);
+        sc.close();
 
     }
 }
