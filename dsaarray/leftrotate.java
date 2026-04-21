@@ -37,6 +37,27 @@ public class leftrotate {
             System.out.print(m+" ");
         }
         System.out.println();
+        
+    }
+    public static void reverse(int[] arr1,int start,int end){
+        while(start<=end){
+            int temp=arr1[start];
+            arr1[start]=arr1[end];
+            arr1[end]=temp;
+            start++;
+            end--;
+        }
+    }
+    public void optimal_LeftRotateBy_K(int arr[],int k){
+        int n=arr.length;
+        k=k%n;
+        reverse(arr, 0,k-1);
+        reverse(arr, k, n-1);
+        reverse(arr, 0, n-1);
+        System.out.print("Array after rotation by k place: ");
+        for(int m:arr){
+            System.out.print(m+" ");
+        }
 
     }
     public static void main (String args[]){
@@ -52,7 +73,11 @@ public class leftrotate {
 
         leftrotate obj=new leftrotate();
         int[] arrCopy = Arrays.copyOf(arr, arr.length);
+        int[] arrCopy2=Arrays.copyOf(arr, arr.length);
         obj.optimum_LeftRotate_1(arr);
         obj.brute_LeftRotateBy_K(arrCopy, k);
+        obj.optimal_LeftRotateBy_K(arrCopy2, k);
+        
+        sc.close();
     }
 }
