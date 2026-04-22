@@ -1,6 +1,6 @@
 package beggnierjava;
 
-import java.util.Scanner;
+
 
 class rev
 {
