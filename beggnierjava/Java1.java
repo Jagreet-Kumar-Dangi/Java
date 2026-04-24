@@ -6,7 +6,7 @@ public class Java1 {
         int x = 6;
 
         // if-else
-        if (false) {
+        if (x > 5) {
             System.out.println("Hello");
         } else {
             System.out.println("Bye");
@@ -16,7 +16,7 @@ public class Java1 {
         int res = (x % 2 == 0) ? 10 : 20;
         System.out.println(res);
 
-        int n = 8;
+        int n = 3;
 
         // modern switch (Java 14+)
         switch (n) {
