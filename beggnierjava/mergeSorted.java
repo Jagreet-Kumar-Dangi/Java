@@ -1,6 +1,6 @@
 package beggnierjava;
 
-import java.util.Arrays;
+// import java.util.Arrays;
 
 public class mergeSorted {
     // public static int[] brute(int[] a, int[] b) {
