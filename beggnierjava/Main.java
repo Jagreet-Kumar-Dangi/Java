@@ -16,7 +16,6 @@ class palindrome{
             x /= 10;
         }
 
-        // Check for palindrome
         return x == rev || x == rev / 10;
     }
 }
