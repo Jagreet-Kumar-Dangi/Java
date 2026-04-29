@@ -46,7 +46,7 @@ public class stringarr {
     students[2]=s3;
 
     for(student stud: students){
-        System.out.println(stud.name + ": " +stud.marks);
+        System.out.println(stud.name + " : " +stud.marks);
     }
     
     }
