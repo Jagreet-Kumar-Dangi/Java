@@ -16,15 +16,15 @@ public class solution {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner in = new Scanner(System.in);
 
         System.out.print("Enter size of array: ");
-        int n = sc.nextInt();
+        int n = in.nextInt();
 
         int[] nums = new int[n];
         System.out.println("Enter elements:");
         for (int i = 0; i < n; i++) {
-            nums[i] = sc.nextInt();
+            nums[i] = in.nextInt();
         }
 
         solution obj = new solution();
@@ -32,6 +32,6 @@ public class solution {
 
         System.out.println("Single number is: " + ans);
 
-        sc.close();
+        in.close();
     }
 }
