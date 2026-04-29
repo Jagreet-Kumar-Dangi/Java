@@ -32,9 +32,9 @@ public class Main {
         boolean result = obj.isPalindrome(num);
 
         if (result) {
-            System.out.println("Palindrome");
+            System.out.println("Palindrome.");
         } else {
-            System.out.println("Not Palindrome");
+            System.out.println("Not Palindrome.");
         }
 
         sc.close();
