@@ -39,7 +39,7 @@ public class revnum {
         int num2=2;
         prime obj2=new prime();
         obj2.primeNum(num2);
-        System.out.println("Reverse of a number is: "+res);
+        System.out.println("Reverse of a number is- "+res);
         
     }
 }

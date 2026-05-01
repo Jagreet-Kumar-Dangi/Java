@@ -4,7 +4,7 @@ class Computer
 {
     public void playMusic()
     {
-        System.out.println("Plying Music");
+        System.out.println("Plying Music.");
     }
     public String getMePen(int rs)
     {
