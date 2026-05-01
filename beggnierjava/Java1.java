@@ -26,7 +26,7 @@ public class Java1 {
             case 4 -> System.out.println("Thursday");
             case 5 -> System.out.println("Friday");
             case 6 -> System.out.println("Saturday");
-            case 7 -> System.out.println("Sunday");
+            case 7 -> System.out.println("Sunday.");
             default -> System.out.println("Invalid.");
         }
     }
