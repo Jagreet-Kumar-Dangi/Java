@@ -9,7 +9,7 @@ public class string {
         System.out.print("Enter a string: ");
         String input = sc.nextLine();  
 
-        System.out.println("You entered: " + input);
+        System.out.println("You entered= " + input);
 
         sc.close();
     }
