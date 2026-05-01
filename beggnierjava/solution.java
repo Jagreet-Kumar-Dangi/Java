@@ -30,7 +30,7 @@ public class solution {
         solution obj = new solution();
         int ans = obj.singleNumber(nums);
 
-        System.out.println("Single number is- " + ans);
+        System.out.println("Single number is= " + ans);
 
         in.close();
     }
