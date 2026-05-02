@@ -37,7 +37,7 @@ public class ArrayLargestNum {
             }
 
             int result = largestNumber(arr);
-            System.out.println("Largest number in array is: " + result);
+            System.out.println("Largest number in array is= " + result);
         }
     }
 }
