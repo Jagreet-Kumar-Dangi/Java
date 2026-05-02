@@ -54,7 +54,7 @@ public class leftrotate {
         reverse(arr, 0,k-1);
         reverse(arr, k, n-1);
         reverse(arr, 0, n-1);
-        System.out.print("Array after rotation by k place: ");
+        System.out.print("Array after rotation by k place- ");
         for(int m:arr){
             System.out.print(m+" ");
         }
