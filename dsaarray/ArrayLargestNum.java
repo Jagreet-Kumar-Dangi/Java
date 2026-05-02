@@ -21,7 +21,7 @@ public class ArrayLargestNum {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
 
-            System.out.print("Enter Length of an Array: ");
+            System.out.print("Enter Length of an Array- ");
             int n = sc.nextInt();
 
             if (n <= 0) {
