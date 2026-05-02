@@ -25,7 +25,7 @@ public class ArrayLargestNum {
             int n = sc.nextInt();
 
             if (n <= 0) {
-                System.out.println("Invalid array size!");
+                System.out.println("Invalid array size.");
                 return;
             }
 
