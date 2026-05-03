@@ -62,7 +62,7 @@ public class leftrotate {
     }
     public static void main (String args[]){
         Scanner sc=new Scanner(System.in);
-        System.out.print("Enter the length of the array: ");
+        System.out.print("Enter the length of the array ");
         int n=sc.nextInt();
         System.out.println("Enter the array elements: ");
         int[] arr=new int[n];
