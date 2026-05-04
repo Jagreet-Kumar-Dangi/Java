@@ -68,7 +68,7 @@ public class leftrotate {
         int[] arr=new int[n];
         for(int i=0;i<n;i++)
             arr[i]=sc.nextInt();
-        System.out.println("Enter number of places to rotate: ");
+        System.out.println("Enter number of places to rotate- ");
         int k=sc.nextInt();
 
         leftrotate obj=new leftrotate();
