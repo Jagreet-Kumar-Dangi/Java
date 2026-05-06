@@ -49,7 +49,7 @@ public class uniqueElement {
             System.out.print(arr[x]+ " ");
         }
         System.out.println();
-        System.out.println("Number of uique elements- "+count);
+        System.out.println("Number of uique elements= "+count);
     }
 
     public static void main(String args[]){
