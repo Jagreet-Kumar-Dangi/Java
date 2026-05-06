@@ -41,7 +41,7 @@ public class seclargest {
         System.out.println("Enter the length of an array= ");
         int n=sc.nextInt();
         int arr[]=new int[n];
-        System.out.println("Enter element in array- ");
+        System.out.println("Enter element in array= ");
         for(int i=0;i<n;i++)
         {
             arr[i]=sc.nextInt();
