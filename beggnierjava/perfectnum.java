@@ -9,7 +9,7 @@ public class perfectnum {
 
         int n, sum = 0;
 
-        System.out.println("Enter a number:");
+        System.out.println("Enter a number=");
         n = sc.nextInt();
 
         for (int i = 1; i < n; i++) {
