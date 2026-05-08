@@ -20,9 +20,9 @@ public class palindrome {
         }
 
         if (temp == rev) {
-            System.out.println("Palindrome.");
+            System.out.println("Palindrome;");
         } else {
-            System.out.println("Not Palindrome");
+            System.out.println("Not Palindrome;");
         }
 
         sc.close();
