@@ -8,7 +8,7 @@ public class palindrome {
 
         int n, rev = 0, rem, temp;
 
-        System.out.println("Enter a number:");
+        System.out.println("Enter a number;");
         n = sc.nextInt();
 
         temp = n;
