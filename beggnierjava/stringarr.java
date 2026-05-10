@@ -37,7 +37,7 @@ public class stringarr {
 
     student s3= new student();
     s3.rollno=2;
-    s3.name="vegeta";
+    s3.name="picollo";
     s3.marks=60;
 
     student students[]=new student[3];
