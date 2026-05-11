@@ -31,7 +31,7 @@ public class stringarr {
 
     student s2= new student();
     s2.rollno=1;
-    s2.name="Goku";
+    s2.name="Bablu";
     s2.marks=0;
 
 
