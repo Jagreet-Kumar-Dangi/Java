@@ -16,5 +16,6 @@ public class strrev {
         }
 
         System.out.println("Reversed String: " + rev);
+        sc.close();
     }
 }
